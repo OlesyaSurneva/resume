@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Olesya, resume">
+  <meta name="description" content="Это сайт - резюме Олеся Сурневой">
+  <link rel="stylesheet" href="styles.css">
+  <title>Olesya Resume</title>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="info">
+      <img src="Безымянный.png" alt="Сурнева Олеся" class="avatar">
+
+      <div class="info-text">
+        <h1>Сурнева Олеся</h1>
+
+        <p>Санкт-Петербург, 20 лет</p>
+
+        <h4>Социальные сети:</h4>
+        |
+        <a href="https://vk.com/o_o.lesya" target="_blank">Вконтакте</a>
+        |
+        <a href="https://t.me/o_0lesya" target="_blank">Telegram</a>
+        |
+      </div>
+    </div>
+
+    <div class="card bg-green">
+      <h2>О себе</h2>
+
+      <ul class="list">
+        <li>Начинающий frontend-разработчик</li>
+        <li>Организована и готова к самообучению</li>
+        <li>Имею базовые знание HTML, CSS, JS</li>
+      </ul>
+    </div>
+
+    <div class="card bg-red">
+      <h2>Образование</h2>
+
+      <table class="table">
+          <tr>
+            <td>Санкт-Петербургский государственный университет телекоммуникации им.проф. М.А.Бонч-Бруевича</td>
+            <td>Инфокоммуникационные технологии и системы специальной связи(специалист)</td>
+            <td>2020-2025</td>
+          </tr>
+      </table>
+    </div>
+
+    <div class="card bg-yellow">
+      <h2>Портфолио</h2>
+
+      <ul class="link-list">
+          <li>
+            Ознакомиться с моими работами можно по <a href="https://codepen.io/glrsolnk-the-styleful/pens/public" target="_blank">ссылке</a> 
+          </li>
+      </ul>
+    </div>
+
+    
+
+    <form action="/" class="form">
+      <h2>Связаться со мной</h2>
+
+      <div class="form-row">
+
+        <div class="form-group">
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" placeholder="Введите имя">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Ваш email:</label>
+          <input type="email" id="email" placeholder="Введите email">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Ваше сообщение:</label>
+        <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+      </div>
+
+      <input class="btn" type="submit" value="Отправить!">
+    </form>
+  </div>
+</body>
+</html>
